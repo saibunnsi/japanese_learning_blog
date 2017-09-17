@@ -22,8 +22,11 @@ stackoverflow上关于这个问题的解决方式也是让人眼花缭乱的！
 ##### 1.打开64位Visual Studio 201x命令行编译模式
 从开始菜单 – Microsoft Visual Studio 201x – Visual Studio Tools – Visual Studio x64 Win64 命令提示(201x)
 ##### 2.使用下面的命令设置环境：
-> set DISTUTILS_USE_SDK=1
-> set MSSdk=1
+```
+set DISTUTILS_USE_SDK=1
+set MSSdk=1
+```
+
 之后再运行之前的命令，成功了：
 
 ```
