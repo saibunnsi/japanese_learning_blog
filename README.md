@@ -1,2 +1,4 @@
-# japanese_learning_blog
-a blog for sharing japanese learning skills 
+＃卒業論文読書リスト
+20170917
+1.<山崎 誠> 言語単位と文の長さが品詞比率に与える影響 (2014年3月，国立国語研究所)
+2.
