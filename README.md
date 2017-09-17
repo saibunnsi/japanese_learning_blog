@@ -21,12 +21,12 @@ stackoverflow上关于这个问题的解决方式也是让人眼花缭乱的！
 
 ##### 1.打开64位Visual Studio 201x命令行编译模式
 从开始菜单 – Microsoft Visual Studio 201x – Visual Studio Tools – Visual Studio x64 Win64 命令提示(201x)
-#### 2.使用下面的命令设置环境：
-set DISTUTILS_USE_SDK=1
-set MSSdk=1
+##### 2.使用下面的命令设置环境：
+> set DISTUTILS_USE_SDK=1
+> set MSSdk=1
 之后再运行之前的命令，成功了：
 
-····
+```
 C:\Python27\Lib\site-packages\MeCab\mecab-python-0.996>py -2 setup.py build
 running build
 running build_py
@@ -40,7 +40,7 @@ MeCab_wrap.cxx(3747): warning C4530: 使用了 C++ 异常处理程序，但未�
 C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\include\type_traits(2342): warning C4577: 在未指定异常处理模式的情况下使用了 "noexcept"；不一定会在异常时终止。指定 /EHsc
 C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX64\x64\link.exe /DLL /nologo /INCREMENTAL:NO /LIBPATH:C:\Python27\Lib\site-packages\MeCab\sdk /LIBPATH:C:\Python27\libs /LIBPATH:C:\Python27\PCbuild\amd64 libmecab.lib /EXPORT:init_MeCab build\temp.win-amd64-2.7\Release\MeCab_wrap.obj /OUT:build\lib.win-amd64-2.7\_MeCab.pyd /IMPLIB:build\temp.win-amd64-2.7\Release\_MeCab.lib /MANIFESTFILE:build\temp.win-amd64-2.7\Release\_MeCab.pyd.manifest
   正在创建库 build\temp.win-amd64-2.7\Release\_MeCab.lib 和对象 build\temp.win-amd64-2.7\Release\_MeCab.exp
-····
+
 C:\Python27\Lib\site-packages\MeCab\mecab-python-0.996>py -2 setup.py install
 running install
 running build
