@@ -8,12 +8,15 @@
 #### problem：
 Win10 64x python27 按照 http://qiita.com/h_kabocha/items/5bee9e9b852aed11411b 的提示安装mecab时，编译模块时出现了以下问题：
 #### description：
+```
 C:\Python27\Lib\site-packages\MeCab\mecab-python-0.996>py -2 setup.py build
 running build
 running build_py
 running build_ext
 building '_MeCab' extension
 error: Unable to find vcvarsall.bat
+```
+
 #### solution：
 stackoverflow上关于这个问题的解决方式也是让人眼花缭乱的！
 后来参考：http://wangye.org/blog/archives/738/
