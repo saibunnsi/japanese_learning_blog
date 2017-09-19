@@ -57,6 +57,10 @@ copying build\lib.win-amd64-2.7\_MeCab.pyd -> C:\Python27\Lib\site-packages
 byte-compiling C:\Python27\Lib\site-packages\MeCab.py to MeCab.pyc
 running install_egg_info
 Writing C:\Python27\Lib\site-packages\mecab_python-0.996-py2.7.egg-info
+```
 
+### 20170919
+#### 阅读清单
+> 1.<中尾桂子> 品詞構成率に基づくテキスト分析の可能性 <大妻女子大学紀要 文系 No.42 201003>
 
 
