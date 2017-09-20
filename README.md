@@ -63,4 +63,13 @@ Writing C:\Python27\Lib\site-packages\mecab_python-0.996-py2.7.egg-info
 #### 阅读清单
 > 1.<中尾桂子> 品詞構成率に基づくテキスト分析の可能性 <大妻女子大学紀要 文系 No.42 201003>
 
+### 20170920
+#### reference
+> 1.<John Newman, Harald Baayen, Sally Rice Rodopi> Corpus-based Studies in Language Use, Language Learning, and Language Documentation
+<2011> P218 P230<from google book>
+> 2.
+
+
+
+
 
